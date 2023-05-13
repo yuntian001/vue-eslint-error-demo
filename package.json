@@ -10,6 +10,7 @@
     "eslint": "eslint . --ext .vue,.ts,.tsx"
   },
   "dependencies": {
+    "element-plus": "^2.3.4",
     "vue": "^3.2.47"
   },
   "devDependencies": {

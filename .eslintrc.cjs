@@ -15,10 +15,7 @@ module.exports = {
       // Script parser for `<script lang="ts">`
       ts: '@typescript-eslint/parser',
 
-      // Script parser for vue directives (e.g. `v-if=` or `:attribute=`)
-      // and vue interpolations (e.g. `{{variable}}`).
-      // If not specified, the parser determined by `<script lang ="...">` is used.
-      '<template>': 'espree',
+    
     },
     sourceType: 'module',
     project: ['./tsconfig.json', './tsconfig.node.json'],
